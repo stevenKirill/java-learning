@@ -1,3 +1,5 @@
+package first_lesson;
+
 public class Product {
     private String name;
     private int price;

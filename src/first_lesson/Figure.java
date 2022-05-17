@@ -1,3 +1,5 @@
+package first_lesson;
+
 public class Figure {
     private int width;
     private int height;
@@ -25,7 +27,7 @@ public class Figure {
 
     @Override
     public String toString() {
-        return "Figure{" +
+        return "first_lesson.Figure{" +
                 "width=" + width +
                 ", height=" + height +
                 '}';

@@ -1,5 +1,6 @@
+package first_lesson;
+
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 public class Example {
     void funcExample(){
@@ -7,7 +8,7 @@ public class Example {
     }
     int num = 2;
     public static void main(String[] args) {
-//        Bird bird = new Bird("Bird",true);
+//        first_lesson.Bird bird = new first_lesson.Bird("first_lesson.Bird",true);
 //        bird.toString();
 
         ArrayList<Box> names = new ArrayList<>();
@@ -27,13 +28,13 @@ public class Example {
 //        for(int i = 0;i<names.size();i++){
 //            System.out.println(names.get(i));
 //        }
-        names.set(0,"Kirill");
+//        names.set(0,"Kirill");
         System.out.println(names);
 
-//        Figure figure = new Figure(10,20);
+//        first_lesson.Figure figure = new first_lesson.Figure(10,20);
 //        System.out.println(figure);
-        //Box box = new Box();
-//        Box box = new Box();
+        //first_lesson.Box box = new first_lesson.Box();
+//        first_lesson.Box box = new first_lesson.Box();
 //        box.set(10);
 //        System.out.println(box.get());
        // System.out.println("Hello World");//console log
@@ -93,8 +94,8 @@ public class Example {
             sum += array[i];
         }
         System.out.println(sum);
-        //Example.someFunc()
-//        Example ex = new Example();
+        //first_lesson.Example.someFunc()
+//        first_lesson.Example ex = new first_lesson.Example();
 //        System.out.println(ex.someFunc(10,20));
     }
 

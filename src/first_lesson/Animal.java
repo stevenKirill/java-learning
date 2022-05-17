@@ -1,3 +1,4 @@
+package first_lesson;
 
 public class Animal{
     public Animal(String name) {

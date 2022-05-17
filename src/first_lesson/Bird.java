@@ -1,4 +1,6 @@
-public class Bird extends Animal{
+package first_lesson;
+
+public class Bird extends Animal {
     private boolean canFly;
 
     public Bird(String name, boolean canFly) {
@@ -8,14 +10,9 @@ public class Bird extends Animal{
 
     @Override
     public String toString() {
-        return "Bird{" +
+        return "first_lesson.Bird{" +
                 "name" + super.getName() +
                 "canFly=" + canFly +
                 '}';
     }
-
-    //    public void superExmple(){
-//        super("asdsad");
-//    }
-
 }

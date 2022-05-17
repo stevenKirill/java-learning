@@ -1,3 +1,5 @@
+package first_lesson;
+
 public class Box<T> {
     // T stands for "Type"
     private T t;
